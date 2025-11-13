@@ -1,0 +1,103 @@
+{
+  "header": {
+    "title": "SDXRNX",
+    "subtitle": "DIRECTORY"
+  },
+  "hero": {
+    "title": "AIツール",
+    "subtitle": "60,000以上の人工知能ツールを発見",
+    "stats": {
+      "tools": "ツール",
+      "categories": "カテゴリー",
+      "freeAccess": "無料アクセス"
+    },
+    "cta": {
+      "explore": "探索を始める",
+      "submit": "ツールを投稿"
+    }
+  },
+  "nav": {
+    "home": "ホーム",
+    "today": "今日のツール",
+    "mostUsed": "最も使用",
+    "saved": "保存済み",
+    "gpts": "GPTs"
+  },
+  "filters": {
+    "search": "AIツールを検索...",
+    "allPricing": "すべての価格",
+    "sortBy": {
+      "bestLogos": "最高のロゴ",
+      "aToZ": "A から Z",
+      "zToA": "Z から A",
+      "mostUsed": "最も使用",
+      "newest": "最新"
+    },
+    "clear": "クリア"
+  },
+  "tools": {
+    "showing": "表示中",
+    "of": "の",
+    "tools": "ツール",
+    "noTools": "ツールが見つかりません",
+    "tryAdjusting": "検索またはフィルターを調整してください",
+    "loading": "AIツールを読み込み中...",
+    "free": "無料",
+    "freemium": "フリーミアム",
+    "premium": "プレミアム",
+    "visitWebsite": "ウェブサイトを訪問",
+    "saveBookmark": "保存",
+    "removeBookmark": "保存済み"
+  },
+  "categories": {
+    "all": "すべて",
+    "productivity": "生産性",
+    "design": "デザイン",
+    "development": "開発",
+    "marketing": "マーケティング",
+    "business": "ビジネス",
+    "writing": "執筆",
+    "education": "教育",
+    "entertainment": "エンターテインメント"
+  },
+  "pages": {
+    "today": {
+      "title": "今日のツール",
+      "description": "過去24時間に追加されたツール",
+      "empty": "今日は新しいツールが追加されていません"
+    },
+    "mostUsed": {
+      "title": "最も使用されているツール",
+      "description": "クリック数で最も人気のあるツール",
+      "empty": "使用統計はまだ利用できません"
+    },
+    "saved": {
+      "title": "保存済みツール",
+      "description": "あなたがブックマークしたツール",
+      "empty": "まだ保存されたツールはありません。ブックマークアイコンをクリックしてツールを保存します。"
+    },
+    "gpts": {
+      "title": "GPTsとAIアシスタント",
+      "description": "カスタムGPT、Gems、Claudeプロジェクト、AIアシスタント",
+      "empty": "GPTsまたはAIアシスタントが見つかりません"
+    }
+  },
+  "footer": {
+    "description": "あなたのニーズに最適なAIツールを見つける",
+    "copyright": "全著作権所有",
+    "contact": "お問い合わせ",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約"
+  },
+  "monitor": {
+    "title": "スクレイピング進行状況",
+    "totalTools": "総ツール数",
+    "target": "目標",
+    "progress": "進捗",
+    "addedToday": "今日追加",
+    "sources": "ソース",
+    "logos": "ロゴ統計",
+    "tier1": "ティア1ロゴ",
+    "averageScore": "平均スコア"
+  }
+}

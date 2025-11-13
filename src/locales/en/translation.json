@@ -1,0 +1,103 @@
+{
+  "header": {
+    "title": "SDXRNX",
+    "subtitle": "DIRECTORY"
+  },
+  "hero": {
+    "title": "AI TOOLS",
+    "subtitle": "DISCOVER 60,000+ ARTIFICIAL INTELLIGENCE TOOLS",
+    "stats": {
+      "tools": "Tools",
+      "categories": "Categories",
+      "freeAccess": "Free Access"
+    },
+    "cta": {
+      "explore": "START EXPLORING",
+      "submit": "SUBMIT TOOL"
+    }
+  },
+  "nav": {
+    "home": "HOME",
+    "today": "TODAY'S TOOLS",
+    "mostUsed": "MOST USED",
+    "saved": "SAVED",
+    "gpts": "GPTs"
+  },
+  "filters": {
+    "search": "SEARCH AI TOOLS...",
+    "allPricing": "ALL PRICING",
+    "sortBy": {
+      "bestLogos": "BEST LOGOS",
+      "aToZ": "A TO Z",
+      "zToA": "Z TO A",
+      "mostUsed": "MOST USED",
+      "newest": "NEWEST"
+    },
+    "clear": "CLEAR"
+  },
+  "tools": {
+    "showing": "SHOWING",
+    "of": "OF",
+    "tools": "TOOLS",
+    "noTools": "No Tools Found",
+    "tryAdjusting": "Try adjusting your search or filters",
+    "loading": "LOADING AI TOOLS...",
+    "free": "FREE",
+    "freemium": "FREEMIUM",
+    "premium": "PREMIUM",
+    "visitWebsite": "VISIT WEBSITE",
+    "saveBookmark": "SAVE",
+    "removeBookmark": "SAVED"
+  },
+  "categories": {
+    "all": "All",
+    "productivity": "Productivity",
+    "design": "Design",
+    "development": "Development",
+    "marketing": "Marketing",
+    "business": "Business",
+    "writing": "Writing",
+    "education": "Education",
+    "entertainment": "Entertainment"
+  },
+  "pages": {
+    "today": {
+      "title": "TODAY'S TOOLS",
+      "description": "Tools added in the last 24 hours",
+      "empty": "No new tools added today"
+    },
+    "mostUsed": {
+      "title": "MOST USED TOOLS",
+      "description": "Most popular tools by click count",
+      "empty": "No usage statistics available yet"
+    },
+    "saved": {
+      "title": "SAVED TOOLS",
+      "description": "Your bookmarked tools",
+      "empty": "No saved tools yet. Click the bookmark icon to save tools."
+    },
+    "gpts": {
+      "title": "GPTs & AI ASSISTANTS",
+      "description": "Custom GPTs, Gems, Claude Projects, and AI Assistants",
+      "empty": "No GPTs or AI Assistants found"
+    }
+  },
+  "footer": {
+    "description": "Discover the best AI tools for your needs",
+    "copyright": "All rights reserved",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "monitor": {
+    "title": "SCRAPING PROGRESS",
+    "totalTools": "Total Tools",
+    "target": "Target",
+    "progress": "Progress",
+    "addedToday": "Added Today",
+    "sources": "Sources",
+    "logos": "Logo Stats",
+    "tier1": "Tier 1 Logos",
+    "averageScore": "Average Score"
+  }
+}

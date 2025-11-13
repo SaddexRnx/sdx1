@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Press+Start+2P&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* PIXEL DESIGN SYSTEM - Professional Black & White */
+    
+    /* Core Colors - Pure B&W */
+    --bg-primary: #FFFFFF;
+    --bg-secondary: #F5F5F5;
+    --bg-tertiary: #E0E0E0;
+    --text-primary: #000000;
+    --text-secondary: #404040;
+    --text-tertiary: #808080;
+    --border: #000000;
+    --border-light: #C0C0C0;
+    
+    /* Accent Colors - Soft Green & Blue */
+    --accent-primary: #00FF00;
+    --accent-hover: #00CC00;
+    --accent-secondary: #4A90E2;
+    --success: #00FF00;
+    --warning: #808080;
+    --error: #000000;
+    
+    /* Pixel Shadows - Hard Edges */
+    --shadow-pixel-sm: 2px 2px 0px #000000;
+    --shadow-pixel-md: 4px 4px 0px #000000;
+    --shadow-pixel-lg: 6px 6px 0px #000000;
+    --shadow-pixel-xl: 8px 8px 0px #000000;
+    
+    /* Spacing - 8px Grid System */
+    --spacing-unit: 8px;
+  }
+
+  .dark {
+    /* Dark Mode - Inverted B&W */
+    --bg-primary: #000000;
+    --bg-secondary: #1A1A1A;
+    --bg-tertiary: #2A2A2A;
+    --text-primary: #FFFFFF;
+    --text-secondary: #C0C0C0;
+    --text-tertiary: #808080;
+    --border: #FFFFFF;
+    --border-light: #404040;
+    
+    --accent-primary: #00FF00;
+    --accent-hover: #00CC00;
+    --accent-secondary: #4A90E2;
+    
+    --shadow-pixel-sm: 2px 2px 0px #FFFFFF;
+    --shadow-pixel-md: 4px 4px 0px #FFFFFF;
+    --shadow-pixel-lg: 6px 6px 0px #FFFFFF;
+    --shadow-pixel-xl: 8px 8px 0px #FFFFFF;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-mono;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    transition: background-color 200ms step-end, color 200ms step-end;
+    image-rendering: pixelated;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  /* Pixel Art Typography */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+  }
+  
+  /* Pixel Buttons */
+  button, .btn {
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+}
+
+@layer utilities {
+  /* Pixel Color Utilities */
+  .bg-primary {
+    background-color: var(--bg-primary);
+  }
+  .bg-secondary {
+    background-color: var(--bg-secondary);
+  }
+  .bg-tertiary {
+    background-color: var(--bg-tertiary);
+  }
+  .text-primary {
+    color: var(--text-primary);
+  }
+  .text-secondary {
+    color: var(--text-secondary);
+  }
+  .text-tertiary {
+    color: var(--text-tertiary);
+  }
+  
+  /* Pixel Border Utilities */
+  .border-pixel {
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--border);
+  }
+  
+  .border-pixel-light {
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--border-light);
+  }
+  
+  /* Pixel Shadow Utilities */
+  .shadow-pixel-sm {
+    box-shadow: var(--shadow-pixel-sm);
+  }
+  
+  .shadow-pixel-md {
+    box-shadow: var(--shadow-pixel-md);
+  }
+  
+  .shadow-pixel-lg {
+    box-shadow: var(--shadow-pixel-lg);
+  }
+  
+  .shadow-pixel-xl {
+    box-shadow: var(--shadow-pixel-xl);
+  }
+  
+  /* Pixel Corners - Sharp, No Rounding */
+  .rounded-pixel {
+    border-radius: 0px;
+  }
+  
+  /* Pixel Hover Effects */
+  .hover-pixel {
+    transition: transform 50ms step-end, box-shadow 50ms step-end;
+  }
+  
+  .hover-pixel:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: var(--shadow-pixel-md);
+  }
+  
+  .hover-pixel:active {
+    transform: translate(2px, 2px);
+    box-shadow: none;
+  }
+  
+  /* Pixel Animations */
+  @keyframes pixelPulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.7; }
+  }
+  
+  @keyframes pixelBlink {
+    0%, 49%, 100% { opacity: 1; }
+    50%, 99% { opacity: 0; }
+  }
+  
+  @keyframes pixelSlideDown {
+    from {
+      transform: translateY(-8px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .animate-pixel-pulse {
+    animation: pixelPulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+  
+  .animate-pixel-blink {
+    animation: pixelBlink 1s step-end infinite;
+  }
+  
+  .animate-pixel-slide {
+    animation: pixelSlideDown 150ms step-end;
+  }
+  
+  /* Pixel Grid System */
+  .grid-pixel {
+    display: grid;
+    gap: calc(var(--spacing-unit) * 2);
+  }
+  
+  /* Logo Quality Tiers - For Prioritization */
+  .logo-tier-1 {
+    order: 1;
+    border-color: var(--accent-primary);
+  }
+  
+  .logo-tier-2 {
+    order: 2;
+    border-color: var(--accent-secondary);
+  }
+  
+  .logo-tier-3 {
+    order: 3;
+    border-color: var(--text-tertiary);
+  }
+  
+  .logo-tier-4 {
+    order: 4;
+    opacity: 0.6;
+  }
+  
+  /* Pixel Glow Effect for Accents */
+  .pixel-glow-green {
+    box-shadow: 0 0 0 2px var(--accent-primary),
+                0 0 0 4px var(--bg-primary);
+  }
+  
+  .pixel-glow-blue {
+    box-shadow: 0 0 0 2px var(--accent-secondary),
+                0 0 0 4px var(--bg-primary);
+  }
+  
+  /* Pixel Loading Spinner */
+  @keyframes pixelSpin {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(90deg); }
+    50% { transform: rotate(180deg); }
+    75% { transform: rotate(270deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  .animate-pixel-spin {
+    animation: pixelSpin 1s step-end infinite;
+  }
+  
+  /* Disable smooth scrolling for pixel aesthetic */
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+@layer components {
+  /* Pixel Button Component */
+  .btn-pixel {
+    @apply bg-primary text-primary border-pixel px-6 py-3 font-bold uppercase;
+    @apply hover-pixel;
+    cursor: pointer;
+    font-family: 'Space Mono', monospace;
+    letter-spacing: 1px;
+  }
+  
+  .btn-pixel-primary {
+    @apply btn-pixel bg-black text-white;
+  }
+  
+  .btn-pixel-secondary {
+    @apply btn-pixel bg-white text-black;
+  }
+  
+  .btn-pixel-accent {
+    @apply btn-pixel text-black;
+    background-color: var(--accent-primary);
+  }
+  
+  /* Pixel Card Component */
+  .card-pixel {
+    @apply bg-primary border-pixel p-6;
+    @apply hover-pixel;
+  }
+  
+  /* Pixel Input Component */
+  .input-pixel {
+    @apply bg-primary text-primary border-pixel px-4 py-2;
+    @apply focus:outline-none focus:shadow-pixel-md;
+    font-family: 'Space Mono', monospace;
+  }
+  
+  /* Pixel Badge Component */
+  .badge-pixel {
+    @apply inline-block px-3 py-1 border-pixel text-xs font-bold uppercase;
+    font-family: 'Space Mono', monospace;
+    letter-spacing: 0.5px;
+  }
+}

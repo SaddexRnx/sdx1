@@ -1,0 +1,52 @@
+{
+  "header": {
+    "title": "SDXRNX",
+    "subtitle": "DIRECTORY"
+  },
+  "hero": {
+    "title": "HERRAMIENTAS IA",
+    "subtitle": "DESCUBRE 60,000+ HERRAMIENTAS DE INTELIGENCIA ARTIFICIAL",
+    "stats": {
+      "tools": "Herramientas",
+      "categories": "Categorías",
+      "freeAccess": "Acceso Gratuito"
+    },
+    "cta": {
+      "explore": "COMENZAR A EXPLORAR",
+      "submit": "ENVIAR HERRAMIENTA"
+    }
+  },
+  "nav": {
+    "home": "INICIO",
+    "today": "HERRAMIENTAS DE HOY",
+    "mostUsed": "MÁS USADAS",
+    "saved": "GUARDADAS",
+    "gpts": "GPTs"
+  },
+  "filters": {
+    "search": "BUSCAR HERRAMIENTAS IA...",
+    "allPricing": "TODOS LOS PRECIOS",
+    "sortBy": {
+      "bestLogos": "MEJORES LOGOS",
+      "aToZ": "A A Z",
+      "zToA": "Z A A",
+      "mostUsed": "MÁS USADAS",
+      "newest": "MÁS RECIENTES"
+    },
+    "clear": "LIMPIAR"
+  },
+  "tools": {
+    "showing": "MOSTRANDO",
+    "of": "DE",
+    "tools": "HERRAMIENTAS",
+    "noTools": "No Se Encontraron Herramientas",
+    "tryAdjusting": "Intenta ajustar tu búsqueda o filtros",
+    "loading": "CARGANDO HERRAMIENTAS IA...",
+    "free": "GRATIS",
+    "freemium": "FREEMIUM",
+    "premium": "PREMIUM",
+    "visitWebsite": "VISITAR SITIO WEB",
+    "saveBookmark": "GUARDAR",
+    "removeBookmark": "GUARDADA"
+  }
+}

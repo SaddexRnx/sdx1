@@ -1,0 +1,103 @@
+{
+  "header": {
+    "title": "SDXRNX",
+    "subtitle": "DIRECTORY"
+  },
+  "hero": {
+    "title": "FERRAMENTAS IA",
+    "subtitle": "DESCUBRA 60.000+ FERRAMENTAS DE INTELIGÊNCIA ARTIFICIAL",
+    "stats": {
+      "tools": "Ferramentas",
+      "categories": "Categorias",
+      "freeAccess": "Acesso Gratuito"
+    },
+    "cta": {
+      "explore": "COMEÇAR A EXPLORAR",
+      "submit": "ENVIAR FERRAMENTA"
+    }
+  },
+  "nav": {
+    "home": "INÍCIO",
+    "today": "FERRAMENTAS DE HOJE",
+    "mostUsed": "MAIS USADAS",
+    "saved": "GUARDADAS",
+    "gpts": "GPTs"
+  },
+  "filters": {
+    "search": "PESQUISAR FERRAMENTAS IA...",
+    "allPricing": "TODOS OS PREÇOS",
+    "sortBy": {
+      "bestLogos": "MELHORES LOGOS",
+      "aToZ": "A A Z",
+      "zToA": "Z A A",
+      "mostUsed": "MAIS USADAS",
+      "newest": "MAIS RECENTES"
+    },
+    "clear": "LIMPAR"
+  },
+  "tools": {
+    "showing": "MOSTRANDO",
+    "of": "DE",
+    "tools": "FERRAMENTAS",
+    "noTools": "Nenhuma Ferramenta Encontrada",
+    "tryAdjusting": "Tente ajustar sua pesquisa ou filtros",
+    "loading": "CARREGANDO FERRAMENTAS IA...",
+    "free": "GRÁTIS",
+    "freemium": "FREEMIUM",
+    "premium": "PREMIUM",
+    "visitWebsite": "VISITAR SITE",
+    "saveBookmark": "GUARDAR",
+    "removeBookmark": "GUARDADA"
+  },
+  "categories": {
+    "all": "Todas",
+    "productivity": "Produtividade",
+    "design": "Design",
+    "development": "Desenvolvimento",
+    "marketing": "Marketing",
+    "business": "Negócios",
+    "writing": "Escrita",
+    "education": "Educação",
+    "entertainment": "Entretenimento"
+  },
+  "pages": {
+    "today": {
+      "title": "FERRAMENTAS DE HOJE",
+      "description": "Ferramentas adicionadas nas últimas 24 horas",
+      "empty": "Nenhuma nova ferramenta adicionada hoje"
+    },
+    "mostUsed": {
+      "title": "FERRAMENTAS MAIS USADAS",
+      "description": "Ferramentas mais populares por contagem de cliques",
+      "empty": "Estatísticas de uso ainda não disponíveis"
+    },
+    "saved": {
+      "title": "FERRAMENTAS GUARDADAS",
+      "description": "Suas ferramentas marcadas",
+      "empty": "Ainda não há ferramentas guardadas. Clique no ícone de marcador para guardar ferramentas."
+    },
+    "gpts": {
+      "title": "GPTs E ASSISTENTES IA",
+      "description": "GPTs personalizados, Gems, Projetos Claude e Assistentes IA",
+      "empty": "Nenhum GPT ou Assistente IA encontrado"
+    }
+  },
+  "footer": {
+    "description": "Descubra as melhores ferramentas IA para suas necessidades",
+    "copyright": "Todos os direitos reservados",
+    "contact": "Contato",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço"
+  },
+  "monitor": {
+    "title": "PROGRESSO DE SCRAPING",
+    "totalTools": "Total de Ferramentas",
+    "target": "Objetivo",
+    "progress": "Progresso",
+    "addedToday": "Adicionadas Hoje",
+    "sources": "Fontes",
+    "logos": "Estatísticas de Logos",
+    "tier1": "Logos Nível 1",
+    "averageScore": "Pontuação Média"
+  }
+}

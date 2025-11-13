@@ -1,0 +1,52 @@
+{
+  "header": {
+    "title": "SDXRNX",
+    "subtitle": "DIRECTORY"
+  },
+  "hero": {
+    "title": "OUTILS IA",
+    "subtitle": "DÉCOUVREZ 60 000+ OUTILS D'INTELLIGENCE ARTIFICIELLE",
+    "stats": {
+      "tools": "Outils",
+      "categories": "Catégories",
+      "freeAccess": "Accès Gratuit"
+    },
+    "cta": {
+      "explore": "COMMENCER L'EXPLORATION",
+      "submit": "SOUMETTRE UN OUTIL"
+    }
+  },
+  "nav": {
+    "home": "ACCUEIL",
+    "today": "OUTILS DU JOUR",
+    "mostUsed": "PLUS UTILISÉS",
+    "saved": "SAUVEGARDÉS",
+    "gpts": "GPTs"
+  },
+  "filters": {
+    "search": "RECHERCHER DES OUTILS IA...",
+    "allPricing": "TOUS LES TARIFS",
+    "sortBy": {
+      "bestLogos": "MEILLEURS LOGOS",
+      "aToZ": "A À Z",
+      "zToA": "Z À A",
+      "mostUsed": "PLUS UTILISÉS",
+      "newest": "PLUS RÉCENTS"
+    },
+    "clear": "EFFACER"
+  },
+  "tools": {
+    "showing": "AFFICHAGE",
+    "of": "SUR",
+    "tools": "OUTILS",
+    "noTools": "Aucun Outil Trouvé",
+    "tryAdjusting": "Essayez d'ajuster votre recherche ou vos filtres",
+    "loading": "CHARGEMENT DES OUTILS IA...",
+    "free": "GRATUIT",
+    "freemium": "FREEMIUM",
+    "premium": "PREMIUM",
+    "visitWebsite": "VISITER LE SITE",
+    "saveBookmark": "SAUVEGARDER",
+    "removeBookmark": "SAUVEGARDÉ"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "header": {
+    "title": "SDXRNX",
+    "subtitle": "DIRECTORY"
+  },
+  "hero": {
+    "title": "KI-WERKZEUGE",
+    "subtitle": "ENTDECKEN SIE 60.000+ KÜNSTLICHE INTELLIGENZ WERKZEUGE",
+    "stats": {
+      "tools": "Werkzeuge",
+      "categories": "Kategorien",
+      "freeAccess": "Kostenloser Zugang"
+    },
+    "cta": {
+      "explore": "JETZT ENTDECKEN",
+      "submit": "WERKZEUG EINREICHEN"
+    }
+  },
+  "nav": {
+    "home": "STARTSEITE",
+    "today": "HEUTIGE WERKZEUGE",
+    "mostUsed": "MEIST GENUTZT",
+    "saved": "GESPEICHERT",
+    "gpts": "GPTs"
+  },
+  "filters": {
+    "search": "KI-WERKZEUGE SUCHEN...",
+    "allPricing": "ALLE PREISE",
+    "sortBy": {
+      "bestLogos": "BESTE LOGOS",
+      "aToZ": "A BIS Z",
+      "zToA": "Z BIS A",
+      "mostUsed": "MEIST GENUTZT",
+      "newest": "NEUESTE"
+    },
+    "clear": "LÖSCHEN"
+  },
+  "tools": {
+    "showing": "ZEIGE",
+    "of": "VON",
+    "tools": "WERKZEUGE",
+    "noTools": "Keine Werkzeuge Gefunden",
+    "tryAdjusting": "Versuchen Sie, Ihre Suche oder Filter anzupassen",
+    "loading": "KI-WERKZEUGE LADEN...",
+    "free": "KOSTENLOS",
+    "freemium": "FREEMIUM",
+    "premium": "PREMIUM",
+    "visitWebsite": "WEBSITE BESUCHEN",
+    "saveBookmark": "SPEICHERN",
+    "removeBookmark": "GESPEICHERT"
+  },
+  "categories": {
+    "all": "Alle",
+    "productivity": "Produktivität",
+    "design": "Design",
+    "development": "Entwicklung",
+    "marketing": "Marketing",
+    "business": "Business",
+    "writing": "Schreiben",
+    "education": "Bildung",
+    "entertainment": "Unterhaltung"
+  },
+  "pages": {
+    "today": {
+      "title": "HEUTIGE WERKZEUGE",
+      "description": "In den letzten 24 Stunden hinzugefügte Werkzeuge",
+      "empty": "Heute wurden keine neuen Werkzeuge hinzugefügt"
+    },
+    "mostUsed": {
+      "title": "MEIST GENUTZTE WERKZEUGE",
+      "description": "Beliebteste Werkzeuge nach Klickzahl",
+      "empty": "Noch keine Nutzungsstatistiken verfügbar"
+    },
+    "saved": {
+      "title": "GESPEICHERTE WERKZEUGE",
+      "description": "Ihre gespeicherten Werkzeuge",
+      "empty": "Noch keine gespeicherten Werkzeuge. Klicken Sie auf das Lesezeichen-Symbol zum Speichern."
+    },
+    "gpts": {
+      "title": "GPTs & KI-ASSISTENTEN",
+      "description": "Benutzerdefinierte GPTs, Gems, Claude-Projekte und KI-Assistenten",
+      "empty": "Keine GPTs oder KI-Assistenten gefunden"
+    }
+  },
+  "footer": {
+    "description": "Entdecken Sie die besten KI-Werkzeuge für Ihre Bedürfnisse",
+    "copyright": "Alle Rechte vorbehalten",
+    "contact": "Kontakt",
+    "privacy": "Datenschutz",
+    "terms": "Nutzungsbedingungen"
+  },
+  "monitor": {
+    "title": "SCRAPING-FORTSCHRITT",
+    "totalTools": "Gesamt Werkzeuge",
+    "target": "Ziel",
+    "progress": "Fortschritt",
+    "addedToday": "Heute Hinzugefügt",
+    "sources": "Quellen",
+    "logos": "Logo-Statistiken",
+    "tier1": "Tier-1-Logos",
+    "averageScore": "Durchschnittliche Punktzahl"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "header": {
+    "title": "SDXRNX",
+    "subtitle": "DIRECTORY"
+  },
+  "hero": {
+    "title": "AI 工具",
+    "subtitle": "发现 60,000+ 人工智能工具",
+    "stats": {
+      "tools": "工具",
+      "categories": "分类",
+      "freeAccess": "免费访问"
+    },
+    "cta": {
+      "explore": "开始探索",
+      "submit": "提交工具"
+    }
+  },
+  "nav": {
+    "home": "首页",
+    "today": "今日工具",
+    "mostUsed": "最常用",
+    "saved": "已保存",
+    "gpts": "GPTs"
+  },
+  "filters": {
+    "search": "搜索 AI 工具...",
+    "allPricing": "所有定价",
+    "sortBy": {
+      "bestLogos": "最佳标志",
+      "aToZ": "A 到 Z",
+      "zToA": "Z 到 A",
+      "mostUsed": "最常用",
+      "newest": "最新"
+    },
+    "clear": "清除"
+  },
+  "tools": {
+    "showing": "显示",
+    "of": "共",
+    "tools": "工具",
+    "noTools": "未找到工具",
+    "tryAdjusting": "尝试调整您的搜索或筛选条件",
+    "loading": "加载中...",
+    "free": "免费",
+    "freemium": "免费增值",
+    "premium": "高级",
+    "visitWebsite": "访问网站",
+    "saveBookmark": "保存",
+    "removeBookmark": "已保存"
+  },
+  "categories": {
+    "all": "全部",
+    "productivity": "生产力",
+    "design": "设计",
+    "development": "开发",
+    "marketing": "营销",
+    "business": "商业",
+    "writing": "写作",
+    "education": "教育",
+    "entertainment": "娱乐"
+  },
+  "pages": {
+    "today": {
+      "title": "今日工具",
+      "description": "过去24小时添加的工具",
+      "empty": "今天还没有添加新工具"
+    },
+    "mostUsed": {
+      "title": "最常用工具",
+      "description": "按点击量排序的最受欢迎工具",
+      "empty": "暂无使用统计数据"
+    },
+    "saved": {
+      "title": "已保存工具",
+      "description": "您收藏的工具",
+      "empty": "还没有保存的工具。点击书签图标保存工具。"
+    },
+    "gpts": {
+      "title": "GPT 和 AI 助手",
+      "description": "自定义 GPT、Gems、Claude 项目和 AI 助手",
+      "empty": "未找到 GPT 或 AI 助手"
+    }
+  },
+  "footer": {
+    "description": "发现最适合您需求的 AI 工具",
+    "copyright": "版权所有",
+    "contact": "联系",
+    "privacy": "隐私政策",
+    "terms": "服务条款"
+  },
+  "monitor": {
+    "title": "抓取进度",
+    "totalTools": "工具总数",
+    "target": "目标",
+    "progress": "进度",
+    "addedToday": "今日添加",
+    "sources": "来源",
+    "logos": "标志统计",
+    "tier1": "一级标志",
+    "averageScore": "平均分数"
+  }
+}
